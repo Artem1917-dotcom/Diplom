@@ -1,14 +1,14 @@
 # Testing framework
-pytest==7.4.0
+pytest==8.4.1
 
 # Web automation
-selenium==4.15.0
+selenium==4.35.0
 
 # API testing
-requests==2.31.0
+requests==2.32.4
 
 # Reporting
-allure-pytest==2.13.0
+allure-pytest==2.15.0
 
 # Type hints
-typing-extensions==4.8.0
+typing-extensions==4.14.1
