@@ -10,5 +10,5 @@ requests==2.31.0
 # Reporting
 allure-pytest==2.13.0
 
-# Type hints (для лучшей разработки)
+# Type hints
 typing-extensions==4.8.0
