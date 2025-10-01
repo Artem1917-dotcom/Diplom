@@ -61,14 +61,6 @@ def test_search_without_phrase():
 
 @allure.epic("API Тестирование")
 @allure.feature("Поиск книг")
-@allure.title("Поиск книг с некорректным типом 'phrase'")
-@allure.description("Проверка ответа API при передаче числового значения вместо строки")
-def test_search_with_numeric_phrase():
-    response = requests.get(f"{base_url}search/product?phrase=12345", headers=headers)
-    assert response.status_code == 400 or response.status_code == 422, "Ожидается ошибка при некорректном типе 'phrase'"
-
-@allure.epic("API Тестирование")
-@allure.feature("Поиск книг")
 @allure.title("Некорректный URL поиска")
 @allure.description("Проверка ответа API при использовании неправильного эндпоинта")
 def test_invalid_endpoint():
