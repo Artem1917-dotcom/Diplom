@@ -1,12 +1,6 @@
 import requests
 import allure
-
-headers = {
-    "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 YaBrowser/25.4.0.0 Safari/537.36",
-    "authorization":
-        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTk0NzA3NTQsImlhdCI6MTc1OTMwMjc1NCwiaXNzIjoiL2FwaS92MS9hdXRoL2Fub255bW91cyIsInN1YiI6IjJiZWRjZDk2ZTczNTkxZTViYTQyYTA4MzJjYmYyOGE5OTg1MjQ3OWQ1OTIxMWEyM2NlYTRkOTRjMDg2NzM3OGIiLCJ0eXBlIjoxMH0.95n2m2o0_LtvGWjZRWJ6m2SOJZOr-KwmxpTRtI3hasA"}
-base_url = "https://web-gate.chitai-gorod.ru/api/v2/"
+from config import *
 
 
 @allure.epic("API Тестирование")
