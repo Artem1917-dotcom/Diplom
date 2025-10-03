@@ -1,6 +1,7 @@
 import allure
 from pages.MainPage import MainPage
 
+
 @allure.epic("UI Тестирование")
 @allure.feature("Поиск книжной информации")
 class TestBookSearch:
